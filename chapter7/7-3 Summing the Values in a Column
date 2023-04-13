@@ -19,7 +19,7 @@ from emp
 - 여러 그룹의 합을 구할때는 GROUP BY & SUM 함께 사용
 - 예) 부서별 급여 합계
 
-~~~sql
+```sql
 select deptno, sum(sal) as total_for_dept
 from emp
 group by deptno
@@ -29,6 +29,6 @@ group by deptno
             10            8750
             20           10875
             30            9400
-~~~
+```
 
 <br>
